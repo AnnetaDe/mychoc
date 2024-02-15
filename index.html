@@ -5,160 +5,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
-
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#index">Simply Chocolate<img src="./images/icons/chocolate.svg" alt="logo" width="24 px"
-                            height="24px"></a>
-                </li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#how its made">How it's made?</a></li>
-                <li><a href="#chocolate">Chocolate is loved</a></li>
-            </ul>
-            <ul>
-                <li><a href="http://facebool.com"><img src="" alt="">fb</a></li>
-                <li><a href="http://instagram.com"><img src="" alt="">in</a></li>
-                <li><a href="http://twitter.com"><img src="" alt="">tw</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="header-nav">
+                <a class="logo_link" href="#index">Simply Chocolate<img src="./images/icons/chocolate.svg" alt="logo"
+                        width="24 px" height="24px"></a>
+                <ul class="header-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#how its made">How it's made?</a></li>
+                    <li><a href="#chocolate">Chocolate is loved</a></li>
+                </ul>
+                <ul class="header-social">
+                    <li><a href="http://facebool.com"><img src="" alt="">fb</a></li>
+                    <li><a href="http://instagram.com"><img src="" alt="">in</a></li>
+                    <li><a href="http://twitter.com"><img src="" alt="">tw</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <!--hero-->
-        <section class="hero">
-            <h1>Treat yourself or a loved one to
-                our finest ingredients for a moment
-                of pure delight!</h1>
-            <button type="button">Buy now</button>
-            <button type="button">How it's made</button>
-            <button type="button">scroll down</button>
-        </section>
-        <!--benefits-->>
-        <section class="benefits">
-            <ul>
-                <li>
-                    <h2>Unsurpassed taste</h2>
-                    <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a
-                        decadent
-                        experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed
-                        Taste
-                        and discover a new level of chocolate bliss.</p>
-                </li>
-                <li>
-                    <h2>Affordable price</h2>
-                    <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of
-                        affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing
-                        taste or quality. Browse our selection and indulge in affordable luxury today.</p>
-                </li>
-                <li>
-                    <h2>Own production</h2>
-                    <p>We take pride in our own production process, ensuring that every step is carefully crafted to
-                        perfection. From selecting the finest ingredients to handcrafting each piece, our attention to
-                        detail is evident in every bite.</p>
-                </li>
+        <div class="container">
 
-            </ul>
-        </section>
-        <!--ingredients-->
-        <section>
-            <h2>It all adds up to one exceptional taste sensation</h2>
-            <ul>
-                <li>
-                    <img src="./images/ingred/img-1.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-2.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-3.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-4.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-5.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-6.jpg" alt="">
-                    <h3></h3>
-                </li>
-                <li>
-                    <img src="./images/ingred/img-7.jpg" alt="">
-                    <h3></h3>
-                </li>
-            </ul>
-
-        </section>
-        <!--hows made-->
-        <section>
-            <h2>How it's made?</h2>
-            <img src="" alt="">
-            <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-        <!--our products-->
-        <section class="our_products">
-            <h2>OUR PRODUCTS</h2>
-            <ul>
-                <li><img src="./images/img-1.jpg" alt="" width="230" height="201">
-                    <h3>Orange </h3>
-                    <p>Dark chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-2.jpg" alt="" width="230" height="201">
-                    <h3>Apple&Cranberry</h3>
-                    <p>Milk chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-3.jpg" alt="" width="230" height="201">
-                    <h3>Lime&Sea salt</h3>
-                    <p>Dark chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-4.jpg" alt="" width="230" height="201">
-                    <h3>Pineapple</h3>
-                    <p>Dark chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-5.jpg" alt="" width="230" height="201">
-                    <h3>Classic</h3>
-                    <p>Milk chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-6.jpg" alt="" width="230" height="201">
-                    <h3>Honey</h3>
-                    <p>Milk chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-7.jpg" alt="" width="230" height="201">
-                    <h3>Roasted fruits</h3>
-                    <p>Dark chocolate</p><button type="button">UAH</button>
-                </li>
-                <li><img src="./images/img-8.jpg" alt="" width="230" height="201">
-                    <h3>Classic</h3>
-                    <p>White chocolate</p><button type="button">UAH</button>
-                </li>
-            </ul>
-        </section>
+            <!--hero-->
+            <section class="hero">
+                <h1>Treat yourself or a loved one to
+                    our finest ingredients for a moment
+                    of pure delight!</h1>
+                <button type="button">Buy now</button>
+                <button type="button">How it's made</button>
+                <button type="button">scroll down</button>
+            </section>
+            <!--benefits-->>
+            <section class="benefits">
+                <ul>
+                    <li>
+                        <h2>Unsurpassed taste</h2>
+                        <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a
+                            decadent
+                            experience that simply cannot be matched. Savor the richness and complexity of our
+                            Unsurpassed
+                            Taste
+                            and discover a new level of chocolate bliss.</p>
+                    </li>
+                    <li>
+                        <h2>Affordable price</h2>
+                        <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection
+                            of
+                            affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without
+                            sacrificing
+                            taste or quality. Browse our selection and indulge in affordable luxury today.</p>
+                    </li>
+                    <li>
+                        <h2>Own production</h2>
+                        <p>We take pride in our own production process, ensuring that every step is carefully crafted to
+                            perfection. From selecting the finest ingredients to handcrafting each piece, our attention
+                            to
+                            detail is evident in every bite.</p>
+                    </li>
+                </ul>
+            </section>
+            <!--ingredients-->
+            <section>
+                <h2>It all adds up to one exceptional taste sensation</h2>
+                <ul>
+                    <li>
+                        <img src="./images/ingred/img-1.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-2.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-3.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-4.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-5.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-6.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                    <li>
+                        <img src="./images/ingred/img-7.jpg" alt="">
+                        <h3></h3>
+                    </li>
+                </ul>
+            </section>
+            <!--hows made-->
+            <section>
+                <h2>How it's made?</h2>
+                <img src="" alt="">
+                <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <!--our products-->
+            <section class="our_products">
+                <h2>OUR PRODUCTS</h2>
+                <ul>
+                    <li><img src="./images/img-1.jpg" alt="" width="230" height="201">
+                        <h3>Orange </h3>
+                        <p>Dark chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-2.jpg" alt="" width="230" height="201">
+                        <h3>Apple&Cranberry</h3>
+                        <p>Milk chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-3.jpg" alt="" width="230" height="201">
+                        <h3>Lime&Sea salt</h3>
+                        <p>Dark chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-4.jpg" alt="" width="230" height="201">
+                        <h3>Pineapple</h3>
+                        <p>Dark chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-5.jpg" alt="" width="230" height="201">
+                        <h3>Classic</h3>
+                        <p>Milk chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-6.jpg" alt="" width="230" height="201">
+                        <h3>Honey</h3>
+                        <p>Milk chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-7.jpg" alt="" width="230" height="201">
+                        <h3>Roasted fruits</h3>
+                        <p>Dark chocolate</p><button type="button">UAH</button>
+                    </li>
+                    <li><img src="./images/img-8.jpg" alt="" width="230" height="201">
+                        <h3>Classic</h3>
+                        <p>White chocolate</p><button type="button">UAH</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
+
     <footer class="footer">
         <h3>Chocolate a delicious cure for a bad day</h3>
         <nav>
